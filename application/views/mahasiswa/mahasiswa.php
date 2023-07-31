@@ -15,12 +15,12 @@
                                     <th style="text-align: center;">No</th>
                                     <th style="text-align: center;">Nim</th>
                                     <th style="text-align: center;">Nama Mahasiswa</th>
-                                    <th style="text-align: center;">Tempat Lahir</th>
-                                    <th style="text-align: center;">Tanggal Lahir</th>
+                                    <!-- <th style="text-align: center;">Tempat Lahir</th>
+                                    <th style="text-align: center;">Tanggal Lahir</th> -->
                                     <th style="text-align: center;">Alamat</th>
-                                    <th style="text-align: center;">Email</th>
+                                    <!-- <th style="text-align: center;">Email</th> -->
                                     <th style="text-align: center;">Telepon</th>
-                                    <th style="text-align: center;">Agama</th>
+                                    <!-- <th style="text-align: center;">Agama</th> -->
                                     <th style="text-align: center;">Gambar</th>
                                     <th style="text-align: center;"></th>
                                 </tr>
@@ -31,12 +31,8 @@
                                     <td style="text-align: center;"><?php echo $i++; ?></td>
                                     <td style="text-align: center;"><?php echo $data->nim_mhs; ?></td>
                                     <td><?php echo $data->nama_mahasiswa; ?></td>
-                                    <td style="text-align: center;"><?php echo $data->tempat_lahir; ?></td>
-                                    <td style="text-align: center;"><?php echo $data->tanggal_lahir; ?></td>
                                     <td style="text-align:center"><?php echo $data->alamat; ?></td>
-                                    <td style="text-align:center"><?php echo $data->email; ?></td>
                                     <td style="text-align: center;"><?php echo $data->telepon; ?></td>
-                                    <td style="text-align:center"><?php echo $data->agama; ?></td>
                                     <td style="text-align:center"><?php echo $data->gambar; ?></td>
                                     <td style="text-align: center;">
                                         <a href="" class="btn btn-info btn-xs">
@@ -49,9 +45,9 @@
                                 <?php } ?>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>

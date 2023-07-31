@@ -12,6 +12,7 @@ class Mahasiswa extends CI_Controller
     public function index()
     {
         $data['title'] = 'Mahasiswa';
+        $data['judul'] = 'Bootcamp STIMIK-MI';
         $data['mahasiswa'] = $this->M_mahasiswa->get_data();
         $this->load->view('dashboard/css');
         $this->load->view('dashboard/header');
