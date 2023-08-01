@@ -21,6 +21,10 @@
 <script src="<?php echo base_url() ?>assets/js/custom.min.js"></script>
 <script src="<?php echo base_url() ?>assets/js/dlabnav-init.js"></script>
 
+<!-- Data Table -->
+<script src="<?php echo base_url() ?>assets/vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo base_url() ?>assets/js/plugins-init/datatables.init.js"></script>
+
 
 <script>
     function JobickCarousel() {

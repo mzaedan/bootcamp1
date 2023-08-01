@@ -24,6 +24,9 @@
     <!-- Favicon icon -->
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url() ?>assets/images/favicon.png">
 
+    <!-- Data Tables -->
+    <link href="<?php echo base_url() ?>assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+
     <!-- All StyleSheet -->
     <link href="<?php echo base_url() ?>assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="<?php echo base_url() ?>assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
@@ -35,5 +38,6 @@
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url() ?>assets/images/favicon.png">
     <link href="<?php echo base_url() ?>assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="<?php echo base_url() ?>assets/css/style.css" rel="stylesheet">
+
 
 </head>
