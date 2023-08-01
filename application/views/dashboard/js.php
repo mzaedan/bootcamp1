@@ -25,6 +25,10 @@
 <script src="<?php echo base_url() ?>assets/vendor/datatables/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo base_url() ?>assets/js/plugins-init/datatables.init.js"></script>
 
+<script>
+    new DataTable('#example');
+</script>
+
 
 <script>
     function JobickCarousel() {
