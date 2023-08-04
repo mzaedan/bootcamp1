@@ -43,6 +43,9 @@
                                             <a href="" class="btn btn-info btn-xs">
                                                 <i class=" fa fa-pencil-alt"></i>
                                             </a>
+                                            <a href="" class="btn btn-info btn-xs">
+                                                <i class=" fa fa-trash"></i>
+                                            </a>
                                         </td>
                                     <?php } ?>
                                 </tbody>
