@@ -57,3 +57,16 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#example').DataTable({
+            language: {
+                'paginate': {
+                    'previous': '<i class="bi bi-skip-start-fill"></i>',
+                    'next': '<i class="bi bi-skip-end-fill"></i>'
+                }
+            }
+        });
+    });
+</script>
