@@ -40,13 +40,13 @@
                                         <td style="text-align: center;"><?php echo $data->telepon; ?></td>
                                         <td style="text-align:center"><?php echo $data->gambar; ?></td>
                                         <td style="text-align: center;">
-                                            <a href="" class="btn btn-secondary btn-xs">
+                                            <a href="<?php echo base_url(); ?>" class="btn btn-secondary btn-xs">
                                                 <i class="fa fa-eye"></i>
                                             </a>
-                                            <a href="" class="btn btn-warning btn-xs">
+                                            <a href="<?php echo base_url(); ?>" class="btn btn-warning btn-xs">
                                                 <i class=" fa fa-pencil-alt"></i>
                                             </a>
-                                            <a href="" class="btn btn-danger btn-xs">
+                                            <a href="<?php echo base_url(); ?>" class="btn btn-danger btn-xs">
                                                 <i class=" fa fa-trash"></i>
                                             </a>
                                         </td>
