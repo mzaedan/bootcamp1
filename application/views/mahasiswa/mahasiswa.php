@@ -14,7 +14,7 @@
                         <h4 class="card-title">Daftar Mahasiswa</h4>
                     </div>
                     <div class="card-body">
-                        <a href="" class="btn btn-sm btn-primary shadow-sm mb-3">
+                        <a href="<?php echo base_url(); ?>/mahasiswa/add/" class="btn btn-sm btn-primary shadow-sm mb-3">
                             <i class="fas fa-plus fa-sm text-white-50"></i>Tambah Data Mahasiswa
                         </a>
                         <div class="table-responsive">
