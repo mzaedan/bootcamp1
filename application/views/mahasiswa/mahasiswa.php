@@ -1,5 +1,5 @@
 <div class="content-body">
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top: -100px;">
 
         <div class="row page-titles">
             <ol class="breadcrumb">
@@ -14,6 +14,9 @@
                         <h4 class="card-title">Daftar Mahasiswa</h4>
                     </div>
                     <div class="card-body">
+                        <a href="" class="btn btn-sm btn-primary shadow-sm mb-3">
+                            <i class="fas fa-plus fa-sm text-white-50"></i>Tambah Data Mahasiswa
+                        </a>
                         <div class="table-responsive">
                             <table id="example" class="display" style="min-width: 845px">
                                 <thead>
@@ -37,13 +40,13 @@
                                         <td style="text-align: center;"><?php echo $data->telepon; ?></td>
                                         <td style="text-align:center"><?php echo $data->gambar; ?></td>
                                         <td style="text-align: center;">
-                                            <a href="" class="btn btn-info btn-xs">
+                                            <a href="" class="btn btn-secondary btn-xs">
                                                 <i class="fa fa-eye"></i>
                                             </a>
-                                            <a href="" class="btn btn-info btn-xs">
+                                            <a href="" class="btn btn-warning btn-xs">
                                                 <i class=" fa fa-pencil-alt"></i>
                                             </a>
-                                            <a href="" class="btn btn-info btn-xs">
+                                            <a href="" class="btn btn-danger btn-xs">
                                                 <i class=" fa fa-trash"></i>
                                             </a>
                                         </td>
@@ -57,16 +60,3 @@
         </div>
     </div>
 </div>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#example').DataTable({
-            language: {
-                'paginate': {
-                    'previous': '<i class="bi bi-skip-start-fill"></i>',
-                    'next': '<i class="bi bi-skip-end-fill"></i>'
-                }
-            }
-        });
-    });
-</script>

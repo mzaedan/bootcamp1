@@ -6,7 +6,7 @@
                     <img src="<?php echo base_url() ?>assets/images/profile/pic1.jpg" alt="">
                     <div class="d-flex align-items-center sidebar-info">
                         <div>
-                            <span class="font-w400 d-block">Franklin Jr</span>
+                            <span class="font-w400 d-block">Zaedan</span>
                             <small class="text-end font-w400">Superadmin</small>
                         </div>
                         <i class="fas fa-chevron-down"></i>
@@ -40,22 +40,21 @@
             </div>
         </div>
         <ul class="metismenu" id="menu">
-            <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
-                    <i class="fa fa-book"></i>
+            <li><a href="<?php echo base_url() ?>dashboard" class="" aria-expanded="false">
+                    <i class="fa-solid fa-chart-column"></i>
                     <span class="nav-text">Dashboard</span>
                 </a>
-                <ul aria-expanded="false">
-                    <li><a href="index.html">Dashboard Light</a></li>
-                    <li><a href="index-2.html">Dashboard Dark</a></li>
-                </ul>
-
             </li>
-            <li><a href="widget-basic.html" class="" aria-expanded="false">
-                    <i class="flaticon-013-checkmark"></i>
-                    <span class="nav-text">Widget</span>
+            <li><a href="<?php echo base_url() ?>mahasiswa" class="" aria-expanded="false">
+                    <i class="fa-solid fa-users"></i>
+                    <span class="nav-text">Mahasiswa</span>
                 </a>
             </li>
-
+            <li><a href="widget-basic.html" class="" aria-expanded="false">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <span class="nav-text">Prodi</span>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
