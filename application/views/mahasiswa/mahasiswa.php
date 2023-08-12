@@ -31,26 +31,31 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php $i = 1 ?>
-                                    <?php foreach ($mahasiswa as $data) { ?>
-                                        <td style="text-align: center;"><?php echo $i++; ?></td>
-                                        <td style="text-align: center;"><?php echo $data->nim_mhs; ?></td>
-                                        <td><?php echo $data->nama_mahasiswa; ?></td>
-                                        <td style="text-align:center"><?php echo $data->alamat; ?></td>
-                                        <td style="text-align: center;"><?php echo $data->telepon; ?></td>
-                                        <td style="text-align:center"><?php echo $data->gambar; ?></td>
-                                        <td style="text-align: center;">
-                                            <a href="<?php echo base_url(); ?>" class="btn btn-secondary btn-xs">
-                                                <i class="fa fa-eye"></i>
-                                            </a>
-                                            <a href="<?php echo base_url(); ?>" class="btn btn-warning btn-xs">
-                                                <i class=" fa fa-pencil-alt"></i>
-                                            </a>
-                                            <a href="<?php echo base_url(); ?>" class="btn btn-danger btn-xs">
-                                                <i class=" fa fa-trash"></i>
-                                            </a>
-                                        </td>
-                                    <?php } ?>
+                                    <tr>
+                                        <?php $i = 1 ?>
+                                        <?php foreach ($mahasiswa as $data) { ?>
+                                            <td style="text-align: center;"><?php echo $i++; ?></td>
+                                            <td style="text-align: center;"><?php echo $data->nim_mhs; ?></td>
+                                            <td><?php echo $data->nama_mahasiswa; ?></td>
+                                            <td style="text-align:center"><?php echo $data->alamat; ?></td>
+                                            <td style="text-align: center;"><?php echo $data->telepon; ?></td>
+                                            <td><img width="100" src="<?php echo base_url(); ?>assets/images/gambar/<?php echo $data->gambar; ?>" /></td>
+                                            <td style="text-align: center;">
+                                                <a href="<?php echo base_url(); ?>assets/images/gambar/<?php echo $data->gambar; ?>" download class="btn btn-info btn-xs">
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+                                                <a href="<?php echo base_url(); ?>" class="btn btn-secondary btn-xs">
+                                                    <i class="fa fa-eye"></i>
+                                                </a>
+                                                <a href="<?php echo base_url(); ?>" class="btn btn-warning btn-xs">
+                                                    <i class=" fa fa-pencil-alt"></i>
+                                                </a>
+                                                <a href="<?php echo base_url(); ?>" class="btn btn-danger btn-xs">
+                                                    <i class=" fa fa-trash"></i>
+                                                </a>
+                                            </td>
+                                    </tr>
+                                <?php } ?>
                                 </tbody>
                             </table>
                         </div>

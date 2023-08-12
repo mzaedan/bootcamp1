@@ -9,7 +9,8 @@ class M_mahasiswa extends CI_Model
         return $query->result();
     }
 
-    public function input_data()
+    public function input_data($data)
     {
+        return $this->db->insert('Mahasiswa', $data);
     }
 }

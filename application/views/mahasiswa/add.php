@@ -18,41 +18,41 @@
                         <div class="row">
                             <div class="mb-3 col-md-6">
                                 <label class="form-label">Nama</label>
-                                <input type="text" class="form-control" placeholder="Masukan Nama">
+                                <input type="text" class="form-control" placeholder="Masukan Nama" name="nama_mhs">
                             </div>
                             <div class="mb-3 col-md-6">
                                 <label class="form-label">Nim</label>
-                                <input type="text" class="form-control" placeholder="Masukan Nim">
+                                <input type="text" class="form-control" placeholder="Masukan Nim" name="nim_mhs">
                             </div>
                             <div class="mb-3 col-md-6">
                                 <label class="form-label">Tempat Lahir</label>
-                                <input type="text" class="form-control" placeholder="Tempat Lahir">
+                                <input type="text" class="form-control" placeholder="Tempat Lahir" name="tempat_lahir">
                             </div>
                             <div class="mb-3 col-md-6">
                                 <label>Tanggal Lahir</label>
-                                <input type="text" class="form-control">
+                                <input type="date" class="form-control" name="tanggal_lahir">
                             </div>
                         </div>
                         <div class="row">
                             <div class="mb-3 col-md-6">
                                 <label>Alamat</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" name="alamat">
                             </div>
                             <div class="mb-3 col-md-6">
                                 <label class="form-label">Email</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" name="email">
                             </div>
                             <div class="mb-3 col-md-6">
                                 <label class="form-label">Telepon</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" name="telepon">
                             </div>
                             <div class="mb-3 col-md-6">
                                 <label class="form-label">Agama</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" name="agama">
                             </div>
                             <div class="mb-3 col-md-6">
                                 <label for="formFile" class="form-label">Gambar</label>
-                                <input class="form-control" type="file" id="formFile">
+                                <input class="form-control" type="file" id="formFile" name="gambar">
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Simpan</button>
