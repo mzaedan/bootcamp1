@@ -47,10 +47,10 @@
                                                 <a href="<?php echo base_url(); ?>" class="btn btn-secondary btn-xs">
                                                     <i class="fa fa-eye"></i>
                                                 </a>
-                                                <a href="<?php echo base_url(); ?>" class="btn btn-warning btn-xs">
-                                                    <i class=" fa fa-pencil-alt"></i>
+                                                <a href="<?= base_url() ?>/mahasiswa/update/<?= $data->id_mahasiswa ?>" class="btn btn-warning btn-xs">
+                                                    <i class="fa fa-pencil-alt"></i>
                                                 </a>
-                                                <a href="<?php echo base_url(); ?>" class="btn btn-danger btn-xs">
+                                                <a href="<?= base_url() ?>/mahasiswa/hapus/<?= $data->id_mahasiswa ?>" class="btn btn-danger btn-xs">
                                                     <i class=" fa fa-trash"></i>
                                                 </a>
                                             </td>
