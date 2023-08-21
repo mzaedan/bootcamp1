@@ -27,6 +27,7 @@
                                         <th style="text-align: center;">Alamat</th>
                                         <th style="text-align: center;">Telepon</th>
                                         <th style="text-align: center;">Gambar</th>
+                                        <th style="text-align: center;">Nama Prodi</th>
                                         <th style="text-align: center;"></th>
                                     </tr>
                                 </thead>
@@ -39,6 +40,7 @@
                                             <td><?php echo $data->nama_mahasiswa; ?></td>
                                             <td style="text-align:center"><?php echo $data->alamat; ?></td>
                                             <td style="text-align: center;"><?php echo $data->telepon; ?></td>
+                                            <td style="text-align: center;"><?php echo $data->nama_prodi; ?></td>
                                             <td><img width="100" src="<?php echo base_url(); ?>assets/images/gambar/<?php echo $data->gambar; ?>" /></td>
                                             <td style="text-align: center;">
                                                 <a href="<?php echo base_url(); ?>assets/images/gambar/<?php echo $data->gambar; ?>" download class="btn btn-info btn-xs">
@@ -50,8 +52,8 @@
                                                 <a href="<?= base_url() ?>/mahasiswa/update/<?= $data->id_mahasiswa ?>" class="btn btn-warning btn-xs">
                                                     <i class="fa fa-pencil-alt"></i>
                                                 </a>
-                                                <a href="<?= base_url() ?>/mahasiswa/hapus/<?= $data->id_mahasiswa ?>" class="btn btn-danger btn-xs">
-                                                    <i class=" fa fa-trash"></i>
+                                                <a href="<?= base_url() ?>/mahasiswa/hapus/<?= $data->id_mahasiswa ?>" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure you want to delete this data?')">
+                                                    <i class="fa fa-trash"></i>
                                                 </a>
                                             </td>
                                     </tr>

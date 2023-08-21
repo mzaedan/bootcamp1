@@ -13,7 +13,7 @@ class Mahasiswa extends CI_Controller
     {
         $data['title'] = 'Mahasiswa';
         $data['judul'] = 'Bootcamp STIMIK-MI';
-        $data['mahasiswa'] = $this->M_mahasiswa->get_data();
+        $data['mahasiswa'] = $this->M_mahasiswa->getAllKuesioner();
         $this->load->view('dashboard/css');
         $this->load->view('dashboard/header');
         $this->load->view('dashboard/sidebar');
@@ -93,7 +93,7 @@ class Mahasiswa extends CI_Controller
 
     public function update_aksi()
     {
-        $id = $this->post('id');
+        $id = $this->input->post('id');
         $nim_mhs = $this->input->post('nim_mhs');
         $nama_mhs = $this->input->post('nama_mhs');
         $tempat_lahir = $this->input->post('tempat_lahir');
